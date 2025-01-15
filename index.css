@@ -1,0 +1,445 @@
+body {
+    background-color: rgb(244, 244, 244);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+body .result{
+    justify-content: center;
+}
+
+.form {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.grp1,
+.container,
+#addachievements-container,
+#addexperience-container,
+#addprojects-container,
+#addeducation-container {
+    margin-bottom: 1.5rem;
+}
+
+
+.grp1 {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grp1 h3 {
+    margin-bottom: 1rem;
+    color: rgb(51, 51, 51);
+    font-size: 1.25rem;
+}
+
+
+.pic-container input {
+    display: block;
+    width: 100%;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.discription-container textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+    resize: none;
+}
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+.counter {
+    margin-right: 0.25rem;
+    font-weight: bold;
+}
+
+
+.container {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h3 {
+    margin-bottom: 1rem;
+    color: rgb(51, 51, 51);
+    font-size: 1.25rem;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.container ul input {
+    width: calc(100% - 2rem);
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.container button.add {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(40, 167, 69);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.container button.add:hover {
+    background-color: rgb(33, 136, 56);
+}
+
+.container button.add:focus {
+    outline: none;
+}
+
+
+
+
+.contacts h3,
+.skills h3 {
+    margin-bottom: 1rem;
+    color: rgb(51, 51, 51);
+    font-size: 1.25rem;
+}
+
+.contacts ul,
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts ul li,
+.skills ul li {
+    margin-bottom: 0.5rem;
+}
+
+.contacts ul input,
+.skills ul input {
+    width: calc(100% - 2rem);
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+#addachievements-container,
+#addexperience-container,
+#addprojects-container,
+#addeducation-container {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#addachievements-item,
+#addexperience-item,
+#addprojects-item,
+#addeducation-item {
+    margin-bottom: 1rem;
+}
+
+#addachievements-item input,
+#addexperience-item input,
+#addprojects-item input,
+#addeducation-item input,
+#addachievements-item textarea,
+#addexperience-item textarea,
+#addprojects-item textarea,
+#addeducation-item textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+}
+
+#addachievements-item textarea,
+#addexperience-item textarea,
+#addprojects-item textarea,
+#addeducation-item textarea {
+    margin-bottom: 0.5rem;
+    resize: none;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+.counter {
+    margin-right: 0.25rem;
+    font-weight: bold;
+}
+
+
+button.add2,
+button.add3,
+button.add4,
+button.add5 {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(0, 123, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 0.875rem;
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button.add2:hover,
+button.add3:hover,
+button.add4:hover,
+button.add5:hover {
+    background-color: rgb(0, 86, 179);
+}
+
+button.add2:focus,
+button.add3:focus,
+button.add4:focus,
+button.add5:focus {
+    outline: none;
+}
+
+
+.result {
+    display: flex;
+    position: relative;
+    left: 155px;
+    padding: 10px;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.intro {
+    width: 24%;
+}
+
+.intro,
+.data {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.intro h3,
+.data h3{
+background-color: rgba(51, 51, 51, 0.158);
+} 
+.vline {
+    font-size: 2px;
+    width: 2px;
+    background-color: rgb(51, 51, 51);
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.photo-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: relative;
+    left: 20px;
+}
+
+.photo-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.name {
+    font-size: 25px;
+    margin-right: 6px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+.About {
+    width: 700px;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+
+.contacts,
+.skills {
+    font-size: 16px;
+    list-style-type: none;
+    width: 220px;
+    overflow-wrap: break-word;
+    text-decoration: none;
+}
+
+.achievements-data,
+.education-data,
+.experience-data,
+.projects-data {
+    width: 900px;
+    padding-top: 5px;
+   
+    margin-top: 15px;
+}
+
+.result h3 {
+    margin-top: 5px;
+    margin-bottom: 0.1rem;
+    color: rgb(51, 51, 51);
+    font-size: 1.5rem;
+
+}
+
+
+.title-dates,
+.degree-date,
+.achievement-nameanddate-holder {
+    display: flex;
+}
+
+.job-title,
+.display-project-name,
+.degree,
+.achievement-name-holder {
+    margin-right: 6px;
+    margin-left: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.start-date,
+.end-date,
+.date,
+.achievement-date-holder {
+    background-color: rgba(40, 136, 40, 0.232);
+    height: 13px;
+    font-size: 13px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.dash {
+    height: 14px;
+    position: relative;
+    bottom: 2px;
+    margin: 2px;
+}
+
+.Employer,
+.institution,
+.achievement-org-holder {
+    font-size: 16px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.role,
+.project-discription,
+.achievement-dis-holder,
+.about {
+    font-size: 15px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+
+
+.name-and-date-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#uplode,
+#save {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0.5rem;
+}
+
+
+#uplode {
+    background-color: rgb(0, 123, 255);
+    position: relative;
+    left: 47%;
+}
+
+#uplode:hover {
+    background-color: rgb(0, 86, 179);
+}
+
+#save {
+    background-color: rgb(40, 167, 69);
+    position: relative;
+    left: 47%;
+}
+
+#save:hover {
+    background-color: rgb(33, 136, 56);
+}
